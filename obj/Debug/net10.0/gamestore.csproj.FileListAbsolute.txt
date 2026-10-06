@@ -26,5 +26,4 @@ C:\code\gamestore\obj\Debug\net10.0\refint\gamestore.dll
 C:\code\gamestore\obj\Debug\net10.0\gamestore.pdb
 C:\code\gamestore\obj\Debug\net10.0\gamestore.genruntimeconfig.cache
 C:\code\gamestore\obj\Debug\net10.0\ref\gamestore.dll
-C:\code\gamestore\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
-C:\code\gamestore\obj\Debug\net10.0\gamestore.csproj.Up2Date
+C:\code\gamestore\obj\Debug\net10.0\gamestore.sourcelink.json

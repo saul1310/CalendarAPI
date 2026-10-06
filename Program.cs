@@ -8,6 +8,16 @@ var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
 
+List<string> dailyReport = [
+     "its gonna be good today"
+
+
+
+
+
+
+    ];
+
 List<GameDto> games = [
     //adding M to the end of a integer tells the compiler to treat it as a decimal
     new (
@@ -44,6 +54,11 @@ List<GameDto> games = [
 //GET /games 
  
 app.MapGet("/games", () => games);
+
+
+//GET Daily Tasks
+
+app.MapGet("/dailyreport", () => dailyReport);
 
 
 //GET /games/1
