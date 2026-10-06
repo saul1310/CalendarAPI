@@ -1,0 +1,28 @@
+GET http://localhost:5270/games
+
+###
+POST http://localhost:5270/games
+Content-Type: application/json
+ 
+
+{
+    "name" : "Silent Hill II",
+    "genre" : "Horror",
+    "price" : 60.00,
+    "releaseDate" : "2011-11-18"
+
+}
+
+
+###
+PUT http://localhost:5270/games/1
+Content-Type: application/json
+
+
+ {
+     
+    "name": "Resident Evil Requiem ",
+    "genre": "Horror/Action",
+    "price": 60.00,
+    "releaseDate": "2026-06-15"
+}
