@@ -15,14 +15,33 @@ Content-Type: application/json
 
 
 ###
-PUT http://localhost:5270/games/1
+PUT http://localhost:5000/games/1
 Content-Type: application/json
 
 
  {
      
-    "name": "Resident Evil Requiem ",
+    "name": "does ths work? ",
     "genre": "Horror/Action",
     "price": 60.00,
     "releaseDate": "2026-06-15"
 }
+
+
+
+###
+GET http://localhost:5270/events
+
+
+###
+POST http://localhost:5270/events
+Content-Type: application/json
+
+
+{
+  "EventName": "test event",
+  "Date": "2024-03-14",
+  "StartTime": "00:00:00",
+  "EndTime": "01:00:00"
+}
+
